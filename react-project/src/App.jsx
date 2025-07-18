@@ -31,6 +31,11 @@ import TodoList from "./TodoList";
 import Profile from "./Profile";
 import ShoppingList from "./ShoppingList";
 import CopyInput from "./components/CopyInput";
+import UseEffectApp from "./useeffectapp";
+import DataFetchUseEffect from "./datafetching";
+import BasicEffect from "./BasicEffect";
+import CounterEffect from "./CounterEffect";
+import FetchDataEffect from "./FetchDataEffect";
 
 const App = () => {
   return (
@@ -96,6 +101,13 @@ const App = () => {
 
       {/* // Portal
       <CopyInput /> */}
+
+      {/* // UseEffect functionality and we need to disable strictmode in main.jsx for learning/testing useEffect
+      <UseEffectApp />
+      <DataFetchUseEffect />
+      <BasicEffect />
+      <CounterEffect />
+      <FetchDataEffect /> */}
 
     </div>
   )
