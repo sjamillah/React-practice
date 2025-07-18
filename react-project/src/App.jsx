@@ -28,6 +28,9 @@ import StateObjectArrayApp from "./states-arryofobjects";
 import ShareState from "./share-state";
 import Counter from "./Counter";
 import TodoList from "./TodoList";
+import Profile from "./Profile";
+import ShoppingList from "./ShoppingList";
+import CopyInput from "./components/CopyInput";
 
 const App = () => {
   return (
@@ -80,13 +83,19 @@ const App = () => {
       {/* // Event handling
       <Events /> */}
 
-      {/* <StateApp />
+      {/* // States 
+      <StateApp />
       <StateArrayApp />
       <StateObjectApp />
       <StateObjectArrayApp />
       <ShareState />
-      <Counter /> */}
+      <Counter />
       <TodoList />
+      <Profile />
+      <ShoppingList /> */}
+
+      {/* // Portal
+      <CopyInput /> */}
 
     </div>
   )
