@@ -43,6 +43,8 @@ import CounterReducerHook from "./CounterReducerHook";
 import UseRefApp from "./UseRefApp";
 import FocusInput from "./FocusInput";
 import Timer from "./Timer";
+import AppforCustomHooks from "./AppforCustomHooks";
+import UseIdApp from "./UseIdApp";
 
 const App = () => {
   return (
@@ -128,6 +130,11 @@ const App = () => {
       <UseRefApp />
       <FocusInput />
       <Timer /> */}
+
+      {/* // Custom Hooks
+      <AppforCustomHooks /> */}
+
+      <UseIdApp />
 
     </div>
   )
