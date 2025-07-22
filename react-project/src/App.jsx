@@ -38,6 +38,11 @@ import CounterEffect from "./CounterEffect";
 import FetchDataEffect from "./FetchDataEffect";
 import AppforContext from "./AppforContext";
 import UserProvider from "./UserContext";
+import UseReducerApp from "./UseReducerApp";
+import CounterReducerHook from "./CounterReducerHook";
+import UseRefApp from "./UseRefApp";
+import FocusInput from "./FocusInput";
+import Timer from "./Timer";
 
 const App = () => {
   return (
@@ -114,6 +119,15 @@ const App = () => {
       {/* // Context API(Prop Drilling solution)
       <AppforContext />
       <UserProvider /> */}
+
+      {/* // useReducer Hook
+      <UseReducerApp />
+      <CounterReducerHook /> */}
+
+      {/* // useRef hook
+      <UseRefApp />
+      <FocusInput />
+      <Timer /> */}
 
     </div>
   )
