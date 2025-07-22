@@ -36,6 +36,8 @@ import DataFetchUseEffect from "./datafetching";
 import BasicEffect from "./BasicEffect";
 import CounterEffect from "./CounterEffect";
 import FetchDataEffect from "./FetchDataEffect";
+import AppforContext from "./AppforContext";
+import UserProvider from "./UserContext";
 
 const App = () => {
   return (
@@ -107,7 +109,11 @@ const App = () => {
       <DataFetchUseEffect />
       <BasicEffect />
       <CounterEffect />
-      <FetchDataEffect /> */}
+      <FetchDataEffect /> */removeEventListener}
+
+      {/* // Context API(Prop Drilling solution)
+      <AppforContext />
+      <UserProvider /> */}
 
     </div>
   )
